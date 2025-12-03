@@ -1,51 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thanvi - Resume</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resume — Thanvi</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Thanvi D Acharya</h1>
-        <nav>
-            <a href="index.html">Bio-data</a>
-            <a href="resume.html" class="active">Resume</a>
-        </nav>
-    </header>
+  <header>
+    <h1>Resume</h1>
+  </header>
 
-    <main class="resume-container">
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="resume.html">Resume</a>
+    <a href="biodata.html">Bio-data</a>
+  </nav>
+
+  <div class="container">
+    <div class="grid">
+      <main>
+        <section class="section">
+          <h2>Career Goals</h2>
+          <p>To secure an internship or entry-level role where I can apply my programming, problem-solving and web development skills to contribute to projects while continuing to learn and grow as a software developer.</p>
+        </section>
+
+        <section class="section">
+          <h2>Education</h2>
+          <table class="table">
+            <tr>
+              <th>Period / Level</th>
+              <th>Institution</th>
+              <th>Board / University</th>
+              <th>Year / % / CGPA</th>
+            </tr>
+            <tr>
+              <td>PUC (12th)</td>
+              <td>St. Cecily's High School</td>
+              <td>State Board</td>
+              <td>98.33%</td>
+            </tr>
+            <tr>
+              <td>B.Tech (CSE)</td>
+              <td>SMVITM</td>
+              <td>Visvesvaraya Technological University (VTU)</td>
+              <td>Currently 5th sem · CGPA: 9.22 (approx)</td>
+            </tr>
+          </table>
+        </section>
+
+        <section class="section">
+          <h2>Skills</h2>
+          <div>
+            <span class="badge">C</span>
+            <span class="badge">C++</span>
+            <span class="badge">Python</span>
+            <span class="badge">Java</span>
+            <span class="badge">Data Structures & Algorithms</span>
+            <span class="badge">Operating Systems</span>
+            <span class="badge">Computer Networks</span>
+            <span class="badge">Database Systems (SQL, MySQL)</span>
+            <span class="badge">NoSQL (MongoDB)</span>
+            <span class="badge">HTML & CSS</span>
+           
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>Projects</h2>
+
+          <h3>1. Hotel Management System</h3>
+          <p><strong>Description:</strong> Full-stack Hotel Management System for managing rooms, guests, reservations, payments and reviews. Includes admin and guest modules.</p>
+          <p><strong>Tech used:</strong> HTML, CSS, JavaScript (frontend),MySQL (backend), Json </p>
+
+          <h3>2. Flood Prediction System</h3>
+          <p><strong>Description:</strong> A project to analyze weather and water-level data to predict possible flood events and notify stakeholders. Uses basic ML models and data visualization to display risk levels per region.</p>
+          <p><strong>Tech used:</strong> Python (data processing), Pandas, Flask , or static visualization dashboards</p>
+
+        
+        </section>
+
+        <section class="section">
+          <h2>Achievements & Certifications</h2>
+          <ul>
+            <li>Good academic record — consistent high scores in SSLC & PUC</li>
+            <li>Coursework projects and internal assignments in VTU curriculum</li>
+          </ul>
+        </section>
+
+      </main>
+
+      <aside class="profile-card">
+        <h3 class="center">Personal Details</h3>
+        <p><strong>Name:</strong> Thanvi</p>
+        <p><strong>Nationality:</strong> Indian</p>
+        <p><strong>Languages:</strong> Kannada, Hindi, English</p>
+
+        <hr style="margin:12px 0; border:none; border-top:1px solid #eee">
+
        
-        
+      </aside>
+    </div>
+  </div>
 
-        <h2>Education</h2>
-        <section class="education">
-            <h3>PUC (PCMCs) | PPC</h3>
-            <p class="date">2021 - 2023</p>
-        </section>
-        <section class="education">
-            <h3>B.E. Computer Science | Shri Madhwa Vadiraj Institute of Technology and Management</h3>
-            <p class="date">2023 - 2027</p>
-        </section>
-        
-
-        <h2>Skills</h2>
-        <section id="skills-list">
-            <span class="skill-tag">HTML5</span>
-            <span class="skill-tag">CSS3</span>
-            <span class="skill-tag">JavaScript</span>
-            <span class="skill-tag">jQuery</span><br>
-            <span class="skill-tag">Java</span>
-            <span class="skill-tag">Python</span>
-            <span class="skill-tag">SQL</span>
-            <span class="skill-tag">C</span>
-            <span class="skill-tag">Ubuntu</span><br>
-        </section>
-    </main>
-    <button id="themeToggle">Toggle Dark/Light Mode</button>
-
-    <script src="script.js"></script>
+  <footer>
+    <p>© 2025 Thanvi | Resume</p>
+  </footer>
 </body>
 </html>
